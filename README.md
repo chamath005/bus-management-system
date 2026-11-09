@@ -70,3 +70,85 @@ git push -u origin feature/passenger-booking  # then open a Pull Request and mer
 ```
 Suggested split: (1) model + exception, (2) storage + auth, (3) fleet/tracking/breakdown, (4) booking/payment/commission,
 (5) UI menus + slides. Each member should commit their own files so the history shows real contributions.
+
+
+
+
+Bus Owner (Admin)
+Management access
+- Register and manage buses.
+- View all registered buses.
+- View the number of passengers currently inside each bus.
+- View bus routes and assigned drivers/conductors.
+- Identify the route with the highest passenger count.
+- Monitor bus speed.
+- Check whether a bus is broken or operational.
+- Receive breakdown reports from drivers.
+- Request a replacement bus.
+- View total ticket revenue.
+- View conductor commissions.
+- Generate passenger and route reports.
+2. Driver
+Driver access
+- View assigned bus details.
+- View assigned route.
+- View conductor information.
+- View passenger count.
+- Update trip status.
+- Report bus breakdowns.
+- Report accidents or delays.
+- Request a replacement bus.
+- View bus speed and trip information.
+- View assigned schedules.
+3. Conductor
+Conductor access
+- Issue tickets to passengers.
+- Record passenger boarding and exiting.
+- View current passenger count.
+- View ticket sales.
+- Calculate and view commission.
+- View available seats.
+- Identify passengers without tickets.
+- Manage lost-and-found reports.
+4. Passenger
+Passenger access
+- View available buses.
+- Search bus routes.
+- View ticket prices and schedules.
+- Book seats.
+- Cancel seat bookings.
+- Make cashless payments.
+- Receive digital tickets.
+- Track buses using simulated GPS.
+- View estimated arrival times.
+- Report lost belongings.
+- Submit complaints and ratings.
+- Receive delay notifications.
+5. Additional System Features
+We also discussed adding:
+- Role-based registration and login.
+- Separate dashboards for each user type.
+- Simulated GPS tracking.
+- Simulated bus speed monitoring.
+- Automatic passenger count updates.
+- Automatic commission calculations.
+- Route popularity statistics.
+- Replacement bus management.
+- Data storage using files.
+- Exception handling.
+- Java OOP concepts (inheritance, encapsulation, polymorphism, interfaces).
+- Collections and packages.
+6. Important system requirement
+Role-based access control
+
+Each user must only see the features belonging to their role.
+
+For example:
+- Passengers cannot access owner features.
+- Drivers cannot manage owner settings.
+- Conductors cannot access driver management.
+- Owners can access overall system management.
+
+I also remember the original goal: You wanted a proper working Java application that runs in IntelliJ, not just a collection of Java classes.
+
+We can use this as the main requirements list when continuing development.
