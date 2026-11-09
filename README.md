@@ -1,3 +1,4 @@
+<img width="4646" height="7080" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/dc142c3c-1691-4ee9-9997-6674fe67f29a" />
 # Bus Fleet Management & Passenger System (IIC 1153 Group Assignment)
 
 ## Problem
